@@ -1,0 +1,14 @@
+p {
+    font-family: monospace;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 3;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Geostar Fill', cursive;
+    margin-top: 40px;
+}

@@ -1,0 +1,24 @@
+body {
+    background-color: #fff;
+}
+
+div {
+    width: 800px;
+    margin: auto;
+    background-color: #fffafa;
+    padding: 50px;
+}
+hr {
+    width: 900px;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.data {
+    color: #008080;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}

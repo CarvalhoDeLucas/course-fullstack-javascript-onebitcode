@@ -1,0 +1,5 @@
+// Comando 
+npm install -g sass
+
+// Transformar
+npx sass --watch style.scss:style/style.css

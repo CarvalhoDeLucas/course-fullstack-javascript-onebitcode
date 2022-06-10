@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro da Liga dos Astronautas</title>
+</head>
+<body>
+    <h3>Cadastro da Liga dos Astronautas</h3>
+    <form action="https://ligadosastronautas.com">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <span> - </span>
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="pass">
+        <br>
+        <br>
+        <label for="data">Data de nascimento:</label>
+        <input type="date" id="date" name="date">
+        <span> - </span>
+        <label for="file">Foto:</label>
+        <input type="file" id="file" name="file">
+        <br>
+        <br>
+        <label for="nationality">Nacionalidade:</label>
+        <select name="nationality" id="nationality">
+            <option value="brasilian">Brasileiro</option>
+            <option value="american">Americano</option>
+        </select>
+        <span> - </span>
+        Genero:
+        <label for="female">F</label>
+        <input type="radio" name="gender" id="female" value="female" />
+        <label for="male">M</label>
+        <input type="radio" name="gender" id="male" value="male" />
+        <br>
+        <div>
+            <p>Suas principais qualidades:</p>
+            <label for="html">HTML</label>
+            <input type="checkbox" name="html"> /
+            <label for="css">CSS</label>
+            <input type="checkbox" name="css"> /
+            <label for="js">JS</label>
+            <input type="checkbox" name="js">
+        </div>
+        <br>
+        <div>
+            <textarea name="description" id="description" cols="50" rows="10" placeholder="Sua descrição"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Criar">
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,15 @@
+li {
+    color: green;
+}
+
+h1 {
+    font-size: 50px;
+    background-color: #555;
+    border: 2px solid yellow
+}
+
+body {
+    background-image: url('https://www.inovacaotecnologica.com.br/noticias/imagens/010130220119-numero-buracos-negros-universo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
